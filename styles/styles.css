@@ -1,0 +1,65 @@
+*{
+    font-family: "poppins";
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100vh;
+}
+
+.wrapper{  
+    display: flex;
+    background-color: azure;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 300px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+h1{
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+
+}
+.input-container{
+    
+    padding: 10px;
+    width: 200px;
+}
+#task-name{
+    width: 224px;
+    height: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#task-description{
+    width: 224px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#add-todo{
+    width: 228px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+
+}
